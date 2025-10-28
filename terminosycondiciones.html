@@ -1,39 +1,176 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Términos y Condiciones - Dental Clinic Boutique</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .terms-content {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .terms-content h2 {
+            color: #535353;
+            margin: 25px 0 15px 0;
+            border-bottom: 1px solid #e9dcc8;
+            padding-bottom: 10px;
+        }
+
+        .terms-content h3 {
+            color: #535353;
+            margin: 20px 0 10px 0;
+        }
+
+        .terms-content ul,
+        .terms-content ol {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+
+        .terms-content li {
+            margin-bottom: 8px;
+        }
+
+        .back-btn {
+            display: inline-block;
+            background-color: #e9dcc8;
+            color: #535353;
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background-color: #d4c5a8;
+            transform: translateY(-2px);
+        }
+
+        .highlight-section {
+            background-color: #f8f5f0;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #e9dcc8;
+        }
+    </style>
 </head>
+
 <body>
     <div class="container">
         <header>
             <div class="logo">DENTAL CLINIC BOUTIQUE</div>
             <div class="subtitle">BY DR. ARCE</div>
         </header>
-        
+
         <main>
             <div class="thank-you-card">
                 <h1>Términos y Condiciones</h1>
-                <p>Última actualización: [Fecha]</p>
-                
-                <h2>1. Aceptación de los Términos</h2>
-                <p>Al utilizar nuestro sitio web y nuestros servicios, usted acepta estos términos y condiciones.</p>
-                
-                <h2>2. Servicios</h2>
-                <p>Ofrecemos servicios de consulta dental de valoración. El pago realizado es para reservar y confirmar la cita.</p>
-                
-                <h2>3. Cancelaciones y Reembolsos</h2>
-                <p>Las cancelaciones deben realizarse con al menos 24 horas de antelación para optar a un reembolso.</p>
-                
-                <h2>4. Contacto</h2>
-                <p>Si tiene alguna pregunta sobre estos términos, contacte con nosotros por WhatsApp.</p>
-                
-                <a href="index.html" class="whatsapp-btn">Volver a la Página Principal</a>
+                <div class="terms-content">
+                    <p><strong>Última actualización:</strong> 15 de Enero de 2024</p>
+
+                    <div class="highlight-section">
+                        <h3>⚠️ AVISO IMPORTANTE</h3>
+                        <p>Al interactuar con nuestro bot de WhatsApp y proporcionar sus datos personales, usted acepta
+                            expresamente estos términos y condiciones, así como el tratamiento de sus datos personales
+                            conforme a lo establecido en este documento.</p>
+                    </div>
+
+                    <h2>1. Consentimiento para el Tratamiento de Datos</h2>
+                    <p>Al utilizar nuestro bot de WhatsApp y proporcionar sus datos personales, usted otorga su
+                        consentimiento expreso para que <strong>Dental Clinic Boutique</strong> trate sus datos
+                        personales con las siguientes finalidades:</p>
+                    <ul>
+                        <li><strong>Creación de expediente clínico digital</strong></li>
+                        <li><strong>Gestión de citas y agenda médica</strong></li>
+                        <li><strong>Comunicación sobre su tratamiento dental</strong></li>
+                        <li><strong>Envío de recordatorios de citas</strong></li>
+                        <li><strong>Facturación y procesos administrativos</strong></li>
+                    </ul>
+
+                    <h2>2. Datos Personales Recopilados</h2>
+                    <p>Mediante nuestro bot de WhatsApp, recopilamos los siguientes datos personales:</p>
+                    <ul>
+                        <li><strong>Datos de identificación:</strong> Nombre completo, apellidos, género, fecha de
+                            nacimiento</li>
+                        <li><strong>Datos de contacto:</strong> Número de WhatsApp, correo electrónico</li>
+                        <li><strong>Datos médicos:</strong> Alergias, condiciones médicas, medicamentos, motivo de la
+                            visita</li>
+                        <li><strong>Datos de preferencia:</strong> Apodo o cómo le gusta que le llamen</li>
+                    </ul>
+
+                    <h2>3. Base de Datos y Almacenamiento</h2>
+                    <p>Sus datos personales se almacenan en una base de datos segura (<strong>MongoDB</strong>) y se
+                        utilizan exclusivamente para:</p>
+                    <ul>
+                        <li>Gestionar su historial clínico dental</li>
+                        <li>Coordinar sus citas y tratamientos</li>
+                        <li>Mantener comunicación sobre su salud dental</li>
+                        <li>Mejorar la calidad de nuestro servicio</li>
+                    </ul>
+
+                    <h2>4. Seguridad de los Datos</h2>
+                    <p>Implementamos medidas de seguridad técnicas y organizativas para proteger sus datos personales
+                        contra accesos no autorizados, pérdida o alteración.</p>
+
+                    <h2>5. Derechos ARCO</h2>
+                    <p>Usted tiene derecho a:</p>
+                    <ul>
+                        <li><strong>Acceder</strong> a sus datos personales</li>
+                        <li><strong>Rectificar</strong> datos inexactos</li>
+                        <li><strong>Cancelar</strong> el tratamiento de sus datos</li>
+                        <li><strong>Oponerse</strong> a ciertos usos de sus datos</li>
+                    </ul>
+                    <p>Para ejercer estos derechos, contacte por WhatsApp al número proporcionado.</p>
+
+                    <h2>6. Conservación de Datos</h2>
+                    <p>Conservaremos sus datos personales durante el tiempo necesario para cumplir con las finalidades
+                        descritas y conforme a los plazos legales aplicables en materia de conservación de historiales
+                        clínicos.</p>
+
+                    <h2>7. Cancelaciones y Reembolsos</h2>
+                    <p>Las cancelaciones deben realizarse con al menos 24 horas de antelación para optar a un reembolso.
+                        Las cancelaciones con menos de 24 horas no son reembolsables.</p>
+
+                    <h2>8. Confirmación de Cita</h2>
+                    <p>Al confirmar una cita a través de nuestro bot, usted acepta:</p>
+                    <ul>
+                        <li>Asistir puntualmente a la cita programada</li>
+                        <li>Cumplir con las políticas de cancelación</li>
+                        <li>Proporcionar información veraz y completa</li>
+                    </ul>
+
+                    <h2>9. Modificaciones</h2>
+                    <p>Nos reservamos el derecho de modificar estos términos y condiciones. Las modificaciones serán
+                        efectivas a partir de su publicación en este sitio.</p>
+
+                    <h2>10. Contacto</h2>
+                    <p>Para cualquier duda sobre el tratamiento de sus datos personales, puede contactarnos por WhatsApp
+                        al número <strong>+1 555 057 1107</strong>.</p>
+
+                    <div class="highlight-section">
+                        <h3>🎯 Resumen de Consentimiento</h3>
+                        <p><strong>"Al interactuar con nuestro bot de WhatsApp y proporcionar sus datos, acepta
+                                que:</strong></p>
+                        <ul>
+                            <li>Sus datos se almacenan en nuestra base de datos segura</li>
+                            <li>Se crea un expediente clínico digital</li>
+                            <li>Recibirá comunicaciones sobre su tratamiento dental</li>
+                            <li>Sus datos se utilizan exclusivamente para fines médicos"</li>
+                        </ul>
+                    </div>
+
+                    <a href="index.html" class="back-btn">Volver a la Página Principal</a>
+                </div>
             </div>
         </main>
-        
+
         <footer>
             <p>© DENTAL CLINIC BOUTIQUE</p>
             <div class="social-links">
@@ -43,4 +180,5 @@
         </footer>
     </div>
 </body>
+
 </html>
